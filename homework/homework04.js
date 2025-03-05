@@ -152,7 +152,7 @@ function getDuplicates(arr) {
     }
     return duplicates;
 };
-console.log(getDuplicates([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
+console.log(getDuplicates([ 0, -4, -7, 0, 5, 10, 45, -7, 0 ]));
 
 console.log('\n--------TASK-17--------\n');
 
