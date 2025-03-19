@@ -184,6 +184,4 @@ function mostRepeated(arr){
   return mostRepeatedEl;
 
 }
-
-console.log(mostRepeated([1, 2, 3, 4, 4, 4]));
-console.log(mostRepeated([9, 1, 1, 8, 1]))
+console.log(mostRepeated([9, 1, 1, 8, 1])) 
