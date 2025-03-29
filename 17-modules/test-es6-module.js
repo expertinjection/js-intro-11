@@ -1,0 +1,14 @@
+import { name, hi, obj } from './NavHelper.js';
+import { Batch11Helper } from './Batch11Helper.js';
+import { BrowserHelper } from './BrowserHelper.js';
+import { open , close, refresh } from './AutomationHelper.js';
+hi();
+console.log(name);
+console.log(obj);
+Batch11Helper.funcA();
+Batch11Helper.funcB();
+console.log(BrowserHelper.launch());
+console.log(BrowserHelper.browserName);
+open();
+close();
+refresh();
