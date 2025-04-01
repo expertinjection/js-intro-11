@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+    <style>
+        div{
+            margin: 20px auto;
+            width: 400px;
+        }
+        label{
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Form</h1>
+    <form>
+        <div>
+            <lable for="name">Name</lable>
+            <input type="text" placeholder="Name"id="name"/>
+        </div>
+        <div>
+            <lable for="lName">Last Name</lable>
+            <input type="text" placeholder="Last Name" id="lName"/>
+        </div>
+        <div>
+            <lable for="email">Email</lable>
+            <input type="email" placeholder="Email" id="email"/>
+        </div>
+        <div>
+            <lable for="pass">Passowrd</lable>
+            <input type="password" placeholder="Email" id="pass"/>
+        </div>
+        <div>
+            <p>What is your favorite color?</p>
+            <label for="blue">Blue</label>
+            <input type="checkbox" id="blue"/>
+            <label for="yellow">Blue</label>
+            <input type="checkbox" id="yellow"/>
+            <label for="red">Blue</label>
+            <input type="checkbox" id="red"/>
+        </div>
+        <div>
+            <h3>Radio</h3>
+            <label for="yes">Yes</label>
+            <input type="radio" name="classAttedance" id="yes"/>
+            <label for="no">No</label>
+            <input type="radio" name="classAttedance" id="yes"/>
+        </div>
+        <div>
+            <h3>Choose your country</h3>
+            <select>
+                <option value="usa">USA</option>
+                <option value="iraq">IRAQ</option>
+                <option value="uk">UK</option>
+            </select>
+        <div>
+            <div>
+                <h3>Choose your country - Malti</h3>
+                <select multiple>
+                    <option value="usa">USA</option>
+                    <option value="iraq">IRAQ</option>
+                    <option value="uk">UK</option>
+                    <option value="usa">USA</option>
+                    <option value="iraq">IRAQ</option>
+                    <option value="uk">UK</option>
+                </select>
+                <div>
+                    <textarea rows="10">Leave yout message here</textarea>
+                </div>
+            <div>
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+</body>
+</html>
