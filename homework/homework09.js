@@ -78,6 +78,7 @@ for (let i = 1; i < n; i++) {
 return fibonacci1.slice(0, n);
 }
 console.log(fibonacciSeries1(9));
+
 console.log("\n--------TASK-7--------\n");
 const fibonacciSeries2 = (n) => {
     if (n === 1) {
